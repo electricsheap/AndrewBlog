@@ -1,0 +1,46 @@
+@font-face {
+	font-family: FiraCode;
+	src: url(../assets/FiraCode.ttf);
+}
+
+html {
+	font-family: 'FiraCode', 'Courier New', Courier, monospace;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	flex: 0;
+	
+}
+
+.nav-bar {
+	padding: 10px;
+	flex-direction: row;
+}
+
+.nav-item {
+	flex: 1 0 50px;
+}
+
+.nav-title {
+	flex: 0 0;
+	flex-basis: 400px;
+	font-size: 37pt;
+}
+@media (max-width: 1024px) {
+	.nav-title {
+		flex-basis: 300px;
+		font-size: 28pt;
+	}
+}
+@media (max-width: 768px) {
+	.nav-title {
+		flex-basis: 150px;
+		font-size: 25pt;
+	}
+}
