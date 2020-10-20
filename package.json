@@ -1,0 +1,11 @@
+{
+  "name": "andrew_blog",
+  "version": "0.0.1",
+  "description": "a blog for no one",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Joshua Cheyney Wilson",
+  "license": "ISC"
+}
